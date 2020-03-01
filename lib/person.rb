@@ -1,18 +1,17 @@
-class Person
-
-  def initialize(name)
+class Dog
+    def name=(name)
     @name = name
-   
   end
-
-  def name=(full_name)
-    name = full_name
-    @first_name = first_name
-   
-  end
-
+ 
   def name
-    "#{@first_name}".strip
+    @name
   end
-
+  
+  def breed=(breed)
+    @breed = breed
+  end
+ 
+  def breed
+    @breed
+  end
 end
